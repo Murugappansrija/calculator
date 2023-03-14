@@ -1,0 +1,56 @@
+.holecont{
+
+    height: 70vh;
+    width: 50vw;
+    background: grey;
+
+     box-sizing: border-box;
+    
+    
+}
+.displayy{
+     height: 15vh;
+     width: 50vw;
+     background-color: lightgray;
+     
+}
+
+
+.oner,.twor,.threer,.fourr,.fiver{
+    height: 10vh;
+    width: 50vw;
+    
+}
+.oner,.twor,.threer,.fourr{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    width: 8vw;
+    height: 8vh;
+    margin-top: 1vh;
+    border-radius: 30%;
+    font-size: larger;
+}
+
+
+.fiver{
+    display: flex;
+    justify-content: space-around;
+}
+
+.holecont{
+    font-size: larger;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    width: 48vw;
+    height: 10vh;
+    font-size: 30px;
+    text-align: right;
+}
